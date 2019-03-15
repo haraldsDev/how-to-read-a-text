@@ -11,8 +11,8 @@ html,body{
 #navbar{
   position:fixed;
   min-width:290px;
-  top:0px;
-  left:0px;
+  top:40px;
+  left:10px;
   width:300px;
   height:100%;
   border-right:solid;
@@ -26,6 +26,43 @@ html,body{
   margin-bottom:110px;
 }
 
+#navbar li{
+  color: #4d4e53;
+  border:1px solid;
+  border-bottom-width:1px;
+  padding:8px;
+  padding-left:45px;
+  list-style: none;
+  position:relative;
+  left:-50px;
+  width:98%;
+}
+
+#navbar li:hover{
+  transform: scale(1.025);
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+#navbar a{
+    color: #4d4e53;
+    text-decoration:none;
+    cursor:pointer;
+} 
+
+#heading {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+code {
+    margin-left:-20px;
+    width:100%;
+    padding:15px;
+    padding-left:10px;
+    padding-right:45px;
+    min-width:233px;
+  }
 
 @media only screen and (max-width: 815px) {
     /* For mobile phones: */
