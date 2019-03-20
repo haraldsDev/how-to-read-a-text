@@ -95,3 +95,23 @@ code {
   	color: pink;
   }
 }
+
+header{
+  color:black;
+  font-size: 30px;
+  margin:10px;
+  text-align:center;
+  font-size:1.8em;
+  font-weight:thin;
+}
+
+#main-doc header{
+  text-align:left;
+  margin:0px;
+}
+
+section article{
+  color: #4d4e53;
+  margin:15px;
+  font-size:0.96em;
+}
